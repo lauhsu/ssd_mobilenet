@@ -13,5 +13,7 @@ Forked from https://github.com/tensorflow/models
 3. https://blog.csdn.net/Ivy_yijing1115/article/details/78915334
 4. https://blog.csdn.net/huikey_buaa/article/details/79570179
 5. 将VOC2007数据集转换为TFRecord格式 https://blog.csdn.net/weixin_37667519/article/details/79032870
-   
+   if len(xml)==0:
    python object_detection/dataset_tools/create_pascal_tf_record.py  --data_dir=/opt/mobilessd/models/research/object_detection/data--year=VOC2007  --output_path=/opt/mobilessd/models/research/object_detection/data/pascal.record
+   
+   
