@@ -1,6 +1,8 @@
 # ssd_mobilenet
 Forked from https://github.com/tensorflow/models
 
+# Requirement
+1. Python 2.7 and Tensorflow 1.5.0
 # Usage
 1. Download data folder from \\diskstation\home\github\ssd_mobilenet
 2. Download VOC2007 dataset and put in data folder
